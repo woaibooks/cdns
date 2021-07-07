@@ -114,7 +114,7 @@ var MAC={
         }
     },
     'Qrcode':function(){
-        $('.mac_qrcode').attr('src','//api.maccms.com/qrcode/?w=150&h=150&url=' + MAC.Url);
+        $('.mac_qrcode').attr('src','//api/qrcode/?w=150&h=150&url=' + MAC.Url);
     },
     'Image':{
         'Lazyload':{
